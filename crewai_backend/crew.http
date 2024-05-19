@@ -1,0 +1,16 @@
+@HostAddress = http://localhost:3001
+
+GET {{HostAddress}}/api/crew
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/crew
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Teste",
+}
+
+###
